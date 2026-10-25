@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration — MobilePhoneUnlocker</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-badge">&#128273;</span>
+      <span>MobilePhoneUnlocker<small>OFFICIAL RESELLER PLATFORM</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Reseller Pricing</a>
+      <a href="payment.html">Payment Method</a>
+      <a href="register.html" class="active">Registration</a>
+      <a href="login.html" class="btn">&#128274; Login</a>
+    </div>
+  </div>
+</div>
+
+<div class="page-banner">
+  <div class="container">
+    <h1>Create New Account</h1>
+    <p><a href="index.html">Home</a> / Registration</p>
+  </div>
+</div>
+
+<div class="container" style="padding-bottom:56px">
+  <div class="form-card">
+    <div class="alert" id="ok">Account created successfully! You can now sign in.</div>
+    <h2>Register Account &#128273;</h2>
+    <p class="sub">Join MobilePhoneUnlocker and get instant access to all services.</p>
+    <form onsubmit="document.getElementById('ok').style.display='block'; this.reset(); return false;">
+      <label>Full Name</label>
+      <input type="text" placeholder="Your full name" required>
+      <label>Email Address</label>
+      <input type="email" placeholder="you@example.com" required>
+      <label>Username</label>
+      <input type="text" placeholder="Choose a username" required>
+      <label>Mobile Number (WhatsApp)</label>
+      <input type="tel" placeholder="+880 1XXXXXXXXX" required>
+      <label>Password</label>
+      <input type="password" placeholder="Create a strong password" required>
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Repeat password" required>
+      <button type="submit" class="btn">Create Account</button>
+      <p class="alt">Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <div class="container footer-bottom" style="padding-top:26px">
+    <span>&copy; 2026 MobilePhoneUnlocker.com. All Rights Reserved.</span>
+    <span><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Refund Policy</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
