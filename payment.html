@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Methods — MobilePhoneUnlocker</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.pay-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-bottom: 36px; }
+.pay-card {
+  background: var(--card); border-radius: var(--radius); padding: 30px;
+  border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  transition: transform .2s, box-shadow .2s; text-align: center;
+}
+.pay-card:hover { transform: translateY(-5px); box-shadow: 0 14px 28px rgba(0,0,0,.10); }
+.pay-card .pay-logo {
+  width: 84px; height: 84px; border-radius: 20px; margin: 0 auto 18px;
+  display: grid; place-items: center; color: #fff; font-weight: 800; font-size: 26px;
+}
+.pay-card .paypal { background: linear-gradient(135deg, #0070ba, #00a1de); letter-spacing: 1px; }
+.pay-card .square { background: linear-gradient(135deg, #000000, #3a3a3a); }
+.pay-card h3 { font-size: 20px; margin-bottom: 8px; }
+.pay-card p { font-size: 13.5px; color: var(--muted); margin-bottom: 18px; }
+.pay-card .pay-info {
+  background: #f0f6ff; border: 1px solid #d6e8ff; border-radius: 10px;
+  padding: 12px 16px; font-size: 13.5px; margin-bottom: 18px; font-weight: 600; color: #1b4a8f;
+}
+.pay-card .pay-info span { display: block; font-size: 12px; color: var(--muted); font-weight: 500; }
+.steps { background: var(--card); border-radius: var(--radius); padding: 30px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,.06); margin-bottom: 36px; }
+.steps h2 { font-size: 20px; margin-bottom: 18px; }
+.steps ol { padding-left: 22px; }
+.steps li { margin-bottom: 10px; font-size: 14.5px; }
+.steps li b { color: var(--primary); }
+.pay-note {
+  background: #fff8ec; border: 1px solid #ffe3b3; border-radius: 12px;
+  padding: 16px 20px; font-size: 13.5px; color: #7a5200; margin-bottom: 40px;
+}
+@media (max-width: 700px) { .pay-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-badge">&#128273;</span>
+      <span>MobilePhoneUnlocker<small>OFFICIAL RESELLER PLATFORM</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Reseller Pricing</a>
+      <a href="payment.html" class="active">Payment Method</a>
+      <a href="register.html">Registration</a>
+      <a href="login.html" class="btn">&#128274; Login</a>
+    </div>
+  </div>
+</div>
+
+<div class="page-banner">
+  <div class="container">
+    <h1>Payment Methods</h1>
+    <p><a href="index.html">Home</a> / Payment Method</p>
+  </div>
+</div>
+
+<div class="container" style="padding-bottom:10px">
+
+  <section class="pay-grid">
+    <div class="pay-card">
+      <div class="pay-logo paypal">PayPal</div>
+      <h3>PayPal</h3>
+      <p>Pay securely with your PayPal balance, linked bank account, or credit / debit card. Buyer protection included.</p>
+      <div class="pay-info">
+        <span>Send PayPal payments to:</span>
+        support@mobilephoneunlocker.com
+      </div>
+      <a href="https://www.paypal.com/paypalme/" target="_blank" class="btn">Pay with PayPal</a>
+    </div>
+
+    <div class="pay-card">
+      <div class="pay-logo square">&#9632;</div>
+      <h3>Square</h3>
+      <p>Pay by credit / debit card through Square secure checkout. All major cards accepted, fast and safe.</p>
+      <div class="pay-info">
+        <span>Request a Square invoice / checkout link via:</span>
+        WhatsApp +1 (347) 903-6373
+      </div>
+      <a href="https://wa.me/13479036373" target="_blank" class="btn">Request Square Link</a>
+    </div>
+  </section>
+
+  <section class="steps">
+    <h2>&#128221; How to Pay — 3 Easy Steps</h2>
+    <ol>
+      <li><b>Choose your service</b> — pick a tool activation or IMEI service from the <a href="pricing.html">Reseller Pricing</a> page.</li>
+      <li><b>Send the payment</b> — pay via PayPal to our email, or ask for a Square checkout link on WhatsApp.</li>
+      <li><b>Send your receipt</b> — message us on WhatsApp with the payment screenshot and your order details.</li>
+      <li><b>Instant delivery</b> — your license key, credits, or unlock is delivered automatically, 24/7.</li>
+    </ol>
+  </section>
+
+  <div class="pay-note">
+    &#9888;&#65039; Important: always include your username or order ID with your payment. Payments without details may cause delivery delays. After sending payment, message us on WhatsApp at <b>+1 (347) 903-6373</b> for instant confirmation.
+  </div>
+
+</div>
+
+<footer>
+  <div class="container footer-bottom" style="padding-top:26px">
+    <span>&copy; 2026 MobilePhoneUnlocker.com. All Rights Reserved.</span>
+    <span><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Refund Policy</a></span>
+  </div>
+</footer>
+
+<a href="https://wa.me/13479036373" target="_blank" class="wa-float">
+  <span class="wa-ico">&#128172;</span>
+  <span><b>Chat with us</b><small>&#9679; Online now</small></span>
+</a>
+
+</body>
+</html>
